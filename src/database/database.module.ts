@@ -4,6 +4,6 @@ import { DatabaseService } from './database.service';
 
 @Module({
   providers: [DatabaseService],
-  exports:[Database]
+  exports:[DatabaseService]
 })
 export class DatabaseModule {}
